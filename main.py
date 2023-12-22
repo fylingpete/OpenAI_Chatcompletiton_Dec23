@@ -33,7 +33,6 @@ while True:
     # Break the loop if the user types 'exit'
     if user_message.lower() == 'exit':
         break
-
     # Add user message to the conversation history
     messages.append({"role": "user", "content": user_message})
 
